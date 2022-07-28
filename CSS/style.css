@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+h1,h2,a,p,button{
+    font-family: Roboto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+nav img{
+    position: relative;
+    left: 80px;
+    height: 45px;
+}
+
+.nav-right a{
+    position: relative;
+    right: 50px;
+    padding: 0 50px;
+    text-decoration: none;
+}
+
+.nav-right i{
+    position: relative;
+    left: 12px;
+}
+
+.part-1{
+    position: relative;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    height: 91vh;
+}
+
+.part-1-left img{
+    height: 91vh;
+}
+
+.part-1-right h2{
+    color: #ff0000;
+    font-size: 30px;
+}
+
+.part-1-right h1{
+    font-size: 85px;
+}
+
+.part-1-right p{
+    position: relative;
+    top: 10px;
+    color: #bdbdbd;
+    width: 600px;
+}
+
+.part-1-right button{
+    position: relative;
+    top: 50px;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 16px;
+    height: 55px;
+    width: 180px;
+}
+
+.part-2{
+    width: 1000px;
+    height: 100vh;
+    background-color: #161616;
+    text-align: center;
+}
+
+.part-2 h1,.part-2 p{
+    position: relative;
+    top: 630px;
+    left: 150px;
+}
+
+.part-2 h1{
+    color: #ff0000;
+    font-size: 100px;
+    font-weight: 1000;
+}
+
+.part-2 p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.part-3{
+    position: relative;
+    bottom: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 460px;
+    height: 450px;
+    width: 1150px;
+}
+
+.box i{
+    position: relative;
+    bottom: 60px;
+    font-size: 70px;
+    color: #ff0000;
+}
+
+.box h1{
+    position: relative;
+    bottom: 30px;
+}
+
+.box p{
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+}
+
+.right-arrow i{
+    position: relative;
+    top: 0;
+    font-size: 15px;
+    color: #ff0000;
+}
+
+.box a{
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.part-3 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 390px;
+    width: 350px;
+    background-color: #1f1f1f;
+}
+
+.box h1,.box p,.box i,.box a{
+    position: relative;
+    left: 40px;
+}
+
+.part-3 .red-box{
+    background-color: #ff0000;
+}
+
+.red-box i{
+    color: #ffffff;
+}
+
+.red-box a{
+    color: #ffffff;
+}
+
+.part-4{
+    position: relative;
+    bottom: 830px;
+    left: 810px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 385px;
+    background-color: #1f1f1f;
+}
+
+.rectangle h1{
+    font-size: 45px;
+    color: #ff0000;
+}
+
+.rectangle p{
+    color: #bdbdbd;
+}
+
+.part-5{
+    position: relative;
+    bottom: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part-5 h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.part-5 p{
+    color: #bdbdbd;
+}
+
+.part-5-left{
+    position: relative;
+    left: 200px;
+}
+
+.part-5 button{
+    position: relative;
+    right: 300px;
+    top: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 16px;
+    height: 55px;
+    width: 180px;
+}
+
+.part-6{
+    position: relative;
+    bottom: 450px;
+    left: 195px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 1208px;
+}
+
+.part-6 .square{
+    width: 650px;
+    height: 600px;
+}
+
+.part-6 img{
+    height: 350px;
+    width: 598px;
+    padding: 60px 25px;
+    background-color: #1f1f1f;
+}
+
+.part-6 h1{
+    position: relative;
+    top: 0;
+    font-size: 25px;
+}
+
+.part-6 a{
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ff0000;
+}
+
+.arrow-right-1 i{
+    position: relative;
+    top: 2px;
+    left: 10px;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.part-7{
+    position: relative;
+    bottom: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 75%;
+    left: 180px;
+    background-color: #1f1f1f;
+}
+
+.part-7 h1{
+    font-size: 55px;
+    font-weight: 700;
+    width: 600px;
+}
+
+.part-7 p{
+    position: relative;
+    top: 13px;
+    color: #bdbdbd;
+    width: 600px;
+}
+
+.part-7 h1,.part-7 p{
+    position: relative;
+    left: 100px;
+}
+
+.part-7 button{
+    position: relative;
+    right: 100px;
+    top: 5px;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 16px;
+    height: 55px;
+    width: 180px;
+    border: none;
+}
+
+.part-8{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.part-8 a{
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #1f1f1f;
+}
+
+footer img{
+    position: relative;
+    left: 180px;
+    height: 40px;
+}
+
+footer .icons{
+    position: relative;
+    right: 830px;
+    font-size: 25px;
+}
+
+.icons i{
+    padding: 0 20px;
+}
