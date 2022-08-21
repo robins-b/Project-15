@@ -46,10 +46,15 @@ nav img{
     display: flex;
     align-items: center;
     height: 91vh;
+    width: 100%;
 }
 
 .part-1-left img{
     height: 91vh;
+}
+
+.part-1-right{
+    width: 100%;
 }
 
 .part-1-right h2{
@@ -65,7 +70,7 @@ nav img{
     position: relative;
     top: 10px;
     color: #bdbdbd;
-    width: 600px;
+    width: 70%;
 }
 
 .part-1-right button{
@@ -79,7 +84,7 @@ nav img{
 }
 
 .part-2{
-    width: 1000px;
+    width: 50%;
     height: 100vh;
     background-color: #161616;
     text-align: center;
@@ -108,9 +113,10 @@ nav img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    left: 460px;
+    gap: 10px;
+    left: 200px;
     height: 450px;
-    width: 1150px;
+    width: 70%;
 }
 
 .box i{
@@ -175,13 +181,14 @@ nav img{
 .part-4{
     position: relative;
     bottom: 830px;
-    left: 810px;
+    left: 45%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 300px;
     width: 800px;
+    gap: 10px;
     text-align: center;
 }
 
@@ -189,7 +196,7 @@ nav img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 120px;
+    height: 130px;
     width: 385px;
     background-color: #1f1f1f;
 }
@@ -209,6 +216,8 @@ nav img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    left: 5%;
 }
 
 .part-5 h1{
@@ -222,13 +231,11 @@ nav img{
 
 .part-5-left{
     position: relative;
-    left: 200px;
 }
 
 .part-5 button{
     position: relative;
-    right: 300px;
-    top: 5px;
+    right: 110px;
     color: #ffffff;
     background-color: #ff0000;
     font-size: 16px;
@@ -239,18 +246,20 @@ nav img{
 .part-6{
     position: relative;
     bottom: 450px;
-    left: 195px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 1400px;
-    height: 1208px;
+    width: 100%;
+    height: 100%;
 }
 
 .part-6 .square{
-    width: 650px;
+    position: relative;
+    left: 5%;
+    width: 50%;
     height: 600px;
+    text-align: left;
 }
 
 .part-6 img{
@@ -289,7 +298,7 @@ nav img{
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    width: 75%;
+    width: 80%;
     left: 180px;
     background-color: #1f1f1f;
 }
@@ -309,12 +318,12 @@ nav img{
 
 .part-7 h1,.part-7 p{
     position: relative;
-    left: 100px;
+    left: 50px;
 }
 
 .part-7 button{
     position: relative;
-    right: 100px;
+    right: 40px;
     top: 5px;
     color: #ffffff;
     background-color: #ff0000;
@@ -343,21 +352,295 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 150px;
+    width: 100%;
     background-color: #1f1f1f;
 }
 
 footer img{
     position: relative;
-    left: 180px;
+    left: 10px;
     height: 40px;
 }
 
 footer .icons{
     position: relative;
-    right: 830px;
+    right: 0px;
     font-size: 25px;
 }
 
 .icons i{
     padding: 0 20px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+    nav img{
+        left: 10px;
+        height: 35px;
+    }
+    .nav-right{
+        display: none;
+    }
+    .part-1{
+        left: 10px;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .part-1-right{
+        width: 100%;
+    }
+    
+    .part-1-left img{
+        height: 500px;
+    }
+    
+    .part-1-right h2{
+        font-size: 25px;
+    }
+    
+    .part-1-right h1{
+        font-size: 40px;
+    }
+    
+    .part-1-right p{
+        width: 100%;
+    }
+    
+    .part-1-right button{
+        top: 30px;
+        margin-bottom: 70px;
+    }
+    .part-2{
+        width: 100%;
+    }
+    
+    .part-2 h1,.part-2 p{
+        left: 0px;
+        top: 0;
+    }
+    .part-3{
+        position: relative;
+        bottom: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .part-4{
+        bottom: 600px;
+        left: 0px;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .part-5{
+        bottom: 500px;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .part-5-left{
+        left: 0px;
+    }
+    .part-5 button{
+        right: 0px;
+    }
+    .part-6{
+        position: relative;
+        bottom: 400px;
+        left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .part-6 .square{
+        width: 650px;
+        height: 600px;
+    }
+    
+    .part-6 img{
+        height: 300px;
+        width: 400px;
+        padding: 60px 25px;
+        background-color: #1f1f1f;
+        object-fit: cover;
+    }
+    .part-7{
+        flex-direction: column;
+        height: 300px;
+        width: 95%;
+        left: 10px;
+        text-align: center;
+
+    }
+    
+    .part-7 h1{
+        font-size: 40px;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .part-7 p{
+        width: 100%;
+    }
+    
+    .part-7 h1,.part-7 p{
+        left: 0px;
+    }
+    
+    .part-7 button{
+        right: 0px;
+        top: 0px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    footer{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+        background-color: #1f1f1f;
+    }
+    
+    footer img{
+        position: relative;
+        left: 10px;
+        height: 30px;
+    }
+    
+    footer .icons{
+        right: 0px;
+    }
+}
+
+/* laptop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px){
+    nav img{
+        left: 10px;
+        height: 35px;
+    }
+    .part-1{
+        left: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .part-1-right{
+        width: 100%;
+    }
+    
+    .part-1-left img{
+        height: 500px;
+    }
+    
+    .part-1-right h2{
+        font-size: 25px;
+    }
+    
+    .part-1-right h1{
+        font-size: 40px;
+    }
+    
+    .part-1-right p{
+        width: 100%;
+    }
+    
+    .part-1-right button{
+        top: 30px;
+        margin-bottom: 70px;
+    }
+    .part-2{
+        width: 100%;
+    }
+    
+    .part-2 h1,.part-2 p{
+        left: 0px;
+        top: 0;
+    }
+    .part-3{
+        position: relative;
+        bottom: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .part-4{
+        bottom: 650px;
+        left: 0px;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+    .part-5{
+        bottom: 500px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .part-5-left{
+        left: 0px;
+    }
+    .part-5 button{
+        right: 0px;
+    }
+    .part-6{
+        position: relative;
+        bottom: 400px;
+        left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 100%;
+    }
+    
+    .part-6 .square{
+        width: 45%;
+        height: 600px;
+    }
+    
+    .part-6 img{
+        height: 300px;
+        width: 450px;
+        padding: 60px 25px;
+        background-color: #1f1f1f;
+        object-fit: cover;
+    }
+    footer{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #1f1f1f;
+    }
+    
+    footer img{
+        position: relative;
+        left: 10px;
+        height: 30px;
+    }
+    
+    footer .icons{
+        right: 0px;
+    }
 }
