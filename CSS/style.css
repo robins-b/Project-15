@@ -216,8 +216,8 @@ nav img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    left: 5%;
+    width: 95%;
+    left: 6%;
 }
 
 .part-5 h1{
@@ -235,7 +235,7 @@ nav img{
 
 .part-5 button{
     position: relative;
-    right: 110px;
+    right: 280px;
     color: #ffffff;
     background-color: #ff0000;
     font-size: 16px;
@@ -250,7 +250,7 @@ nav img{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 
@@ -298,8 +298,8 @@ nav img{
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    width: 80%;
-    left: 180px;
+    width: 84%;
+    left: 5%;
     background-color: #1f1f1f;
 }
 
